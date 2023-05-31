@@ -166,7 +166,23 @@
     // console.log(isLeap(2020));
 
 
-// 15.Сортировать несортируемое
+// 15.Воссоздание свойства String.length
+
+    // function length(s) 
+    // {
+    // 	let cnt = 0;
+    // 	for(let i=0; i< s.length; i++){
+    // 	cnt ++;
+    // 	}
+    // 	return cnt;	
+    // }
+    // console.log(length("Hello World"));
+    // console.log(length("Edabit"));
+    // console.log(length("wash your hands!"));
+
+
+
+// 16.Сортировать несортируемое
 
     // function sortIt(arr) {
     // 	return arr.sort((a, b) => a - b);
@@ -174,7 +190,7 @@
     // console.log(sortIt([4, 1, 3]))
 
 
-// 16.Создайте функцию, которая принимает три значения:
+// 17.Создайте функцию, которая принимает три значения:
 // hчасы
 // mминуты
 // sсекунды
@@ -196,3 +212,4 @@
     // console.log(longestTime(15, 955, 59400))
 
 
+    
