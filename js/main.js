@@ -180,9 +180,17 @@
     // console.log(length("Edabit"));
     // console.log(length("wash your hands!"));
 
+// 16. N-е четное число
+
+    // function nthEven(n) {
+    //     return (n * 2) - 2;
+    // }
+    // console.log(nthEven(1))
+    // console.log(nthEven(2))
+    // console.log(nthEven(100))
 
 
-// 16.Сортировать несортируемое
+// 17.Сортировать несортируемое
 
     // function sortIt(arr) {
     // 	return arr.sort((a, b) => a - b);
@@ -190,7 +198,7 @@
     // console.log(sortIt([4, 1, 3]))
 
 
-// 17.Создайте функцию, которая принимает три значения:
+// 18.Создайте функцию, которая принимает три значения:
 // hчасы
 // mминуты
 // sсекунды
@@ -212,4 +220,28 @@
     // console.log(longestTime(15, 955, 59400))
 
 
-    
+// 19.Объединение двух целочисленных массивов
+
+        // function concat(arr1, arr2) {
+        // let newArray = arr1.concat(arr2);
+        // return newArray;     
+        // }
+
+        // console.log(concat([1, 3, 5], [2, 6, 8]))
+        // console.log(concat([7, 8], [10, 9, 1, 1, 2]))
+        // console.log(concat([4, 5, 1], [3, 3, 3, 3, 3]))
+
+
+
+// 20. Воссоздание функции abs()
+
+        // function absolute(n) {
+        // 	if(n < 0 ){
+        // 	return 0 - n;
+        // 	}
+        // 	return n;
+        // }
+        // console,log(absolute(-1.217197940))
+        // console.log(absolute(-12.1320));
+        // console.log(absolute(-544.0));
+        
